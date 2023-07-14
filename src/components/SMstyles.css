@@ -12,7 +12,7 @@
   padding: 25px;
   margin: 20px 10px;
   overflow: auto;
-  max-height: calc(100vh - 300px); /* Adjust the value as needed */
+  max-height: calc(100vh - 300px); 
 }
 
 .image-resize {
@@ -27,7 +27,7 @@
 #pageSec p {
   margin: 0;
   padding: 10px;
-  max-height: calc(100vh - 300px); /* Adjust the value as needed */
+  max-height: calc(100vh - 300px); 
 }
 .carousel-container {
   display: flex;
