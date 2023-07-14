@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Retro';
+    src: url('../assets/Retro.ttf') format('truetype');
+  }
+
+
+.landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .landing-title {
+    font-family: Retro;
+    color: #ffffff;
+    font-size: 200px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .side-effects-list {
+    list-style: none;
+    font-family: Retro;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-style:dotted;
+    border-color: rgba(252, 214, 131, 0.823);
+    margin-top: 0px;
+    border-width: 4px;
+    padding-right: 2%;
+  }
+  
+  .side-effects-list caption {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .side-effects-list li {
+    padding: 10px;
+  }
+  
+  #titleL {
+    /* Your styles here */
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .landing-title {
+      font-size: 40px; /* Adjust font size for smaller screens */
+      margin-top: 0; /* Remove negative margin */
+    }
+  
+    .side-effects-list {
+      margin-top: -10px; /* Adjust margin for smaller screens */
+    }
+  
+    #titleL {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+
+
+
+
+
+
+
+  :root {
+    --rotationDuration: 20s;
+    --hoverDuration: 0.3s;
+    --easeIn: cubic-bezier(0.32, 0, 0.67, 0);
+    --easeOut: cubic-bezier(0.33, 1, 0.68, 1);
+    --textColor: #2B3338;
+    --bgColor: #A6B8B1;
+    --accentColor: #E8D6C1;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: var(--bgColor);
+    display: grid;
+    place-content: center;
+    grid-gap: 0;
+  }
+  
+  .link {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    font: 300 1.55rem/1.4 "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 0.1175em;
+    word-spacing: 0.3em;
+    text-decoration: none;
+  }
+  
+  .link__svg {
+    width: 100%;
+    height: auto;
+    transform-box: fill-box;
+    fill: var(--textColor);
+    stroke: var(--textColor);
+    stroke-width: 0.05em;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .link__cloud {
+    transform-origin: 50% 50%;
+    animation: rotate normal infinite 3 var(--rotationDuration) linear;
+    fill: rgba(252, 252, 252, 0.879);
+  }
+  
+  .link__face,
+  .link__arrow {
+    transform-origin: 50% 50%;
+    transition: transform calc(var(--hoverDuration) / 2) var(--easeIn);
+  
+    .link:hover & {
+      transform: scale(1.1);
+      transition: transform var(--hoverDuration) var(--easeOut);
+    }
+  }
+  
+  .link__arrow {
+    stroke-width: 0.075em;
+  }
+  
+  .link__text {
+    animation: rotateReverse normal infinite var(--rotationDuration) linear;
+    transform-origin: 50% 50%;
+  
+    .link:hover & {
+      animation-play-state: paused;
+    }
+  }
+  
+  .link--alt {
+    font-size: 1.15rem;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateReverse {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  
