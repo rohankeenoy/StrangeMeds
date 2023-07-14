@@ -8,10 +8,17 @@ import { Carousel,Container } from 'react-bootstrap';
 import image1 from '../assets/1.jpg';
 import image2 from '../assets/2.jpg';
 import image3 from '../assets/3.jpg';
+import fb from '../assets/fb.png'
+import insta from '../assets/instagram.png'
+import spotify from '../assets/spotify.png'
+import bc from '../assets/BC.png'
+import apple from '../assets/apple.png'
+
 
 const HomePage = () => {
   return (
     <div>
+      <div class = "scroll"></div>
       <NavBar />
       <div className="carousel-container">
         <Carousel controls={false}>
@@ -38,6 +45,13 @@ const HomePage = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+      <div id="logos">
+        <img class="logo" src={bc} alt ="bandcamp"></img>
+        <img class="longLogo" src={spotify} alt ="spotify"></img>
+        <img class="logo" src={insta} alt ="instagram"></img>
+        <img class="logo" src={fb} alt ="facebook"></img>
+        <img class="longLogo" src={apple} alt ="apple"></img>
+      </div>
       <section id="pageSec">
                 <p>
                 Deep within the heart of the Mississippi River, where catfish serenade with banjos and blues legends haunt the night, a cosmic collision of musical prowess occurred. Behold, the birth of Strange Medicine! These four misfit minstrels hailing from the land of cornfields and cow-tippin' were destined to ignite the Midwest with a storm of sonic shenanigans. With thunderous riffs, electrifying solos, and a dash of St. Louis charm, Strange Medicine burst onto the scene like a sonic tornado, leaving a trail of shattered eardrums and satisfied smiles in their wake.
@@ -53,7 +67,7 @@ const HomePage = () => {
             Together, these musical madmen known as Strange Medicine are a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
                 </p>
             </section>
-            </div>
+      </div>
   );
 };
 

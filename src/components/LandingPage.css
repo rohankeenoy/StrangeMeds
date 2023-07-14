@@ -17,9 +17,10 @@
   .landing-title {
     font-family: Retro;
     color: #ffffff;
-    font-size: 200px;
+    font-size: 150px;
     margin-top: 0px;
     text-align: center;
+    overflow: visible;
   }
   
   .side-effects-list {
@@ -29,7 +30,7 @@
     text-align: center;
     border-style:dotted;
     border-color: rgba(252, 214, 131, 0.823);
-    margin-top: 0px;
+    margin-top: -30px;
     border-width: 4px;
     padding-right: 2%;
   }
@@ -50,7 +51,7 @@
     font-weight: bold;
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 788px) {
     .landing-title {
       font-size: 40px; /* Adjust font size for smaller screens */
       margin-top: 0; /* Remove negative margin */
