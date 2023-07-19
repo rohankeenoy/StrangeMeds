@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Retro';
+    src: url('../assets/Retro.ttf') format('truetype');
+  }
+.footer{
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.content-container {
+    margin-top: 70px;
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+
+  }
+  
+  .show-item {
+    padding: 20px;
+
+    flex: 1 1 0;
+    min-width: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: dotted;
+    border-width: 4px;
+    border-color: rgba(252, 214, 131, 0.823);
+  }
+  
+  .show-item h1 {
+    font-family: Retro;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    text-align: center;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  
+  .flier {
+    max-width: 100%;
+    max-height: 600px;
+  }
+  
+  .text-container {
+    text-align: center;
+    margin-top: 10px;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  
+  .details {
+    font-size: 16px;
+  }
+  
+  .previousShows {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+  }
+  .previousShows .upcomingTitle{
+    font-size:28px;
+  }
+  
+  .upcomingTitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Retro;
+  }
+  
+  .hr-divider {
+    
+  }
+  

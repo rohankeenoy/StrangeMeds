@@ -6,6 +6,8 @@ import NavBar from './components/NavBar';
 import LandingPage from './containers/LandingPage';
 import HomePage from './containers/HomePage'
 import Listen from './containers/Listen'
+import Shows from './containers/Shows'
+import Gallary from './containers/Gallary'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +17,8 @@ ReactDOM.render(
         <Route path="/" element={<LandingPage />} />
         <Route path='/home' element={<HomePage/>}/>
         <Route path="/Listen" element={<Listen/>}/>
+        <Route path ="/Shows" element={<Shows/>}/>
+        <Route path = "/Gallery" element = {<Gallary/>}/>
       </Routes>
     </Router>
   </React.StrictMode>,

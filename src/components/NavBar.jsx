@@ -46,7 +46,7 @@ export default function Navbar() {
               <a href="/Gallery">Gallery</a>
             </li>
             <li>
-              <a href="/Shows">Gallery</a>
+              <a href="/Shows">Shows</a>
             </li>
           </ul>
         </div>
