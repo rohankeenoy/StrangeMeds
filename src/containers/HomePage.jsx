@@ -21,9 +21,8 @@ import bao from '../assets/bao.jpg'
 const HomePage = () => {
   return (
     <div>
-      
       <NavBar />
-      <div className="carousel-container">
+      <div className="content-container">
         <Carousel controls={false}>
           <Carousel.Item interval={4000}>
             <img
@@ -48,22 +47,20 @@ const HomePage = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div id="logos">
+      <Container className="logos">
         <img className="logo" src={bc} alt="bandcamp" />
         <img className="longLogo" src={spotify} alt="spotify" />
         <img className="logo" src={insta} alt="instagram" />
         <img className="logo" src={fb} alt="facebook" />
         <img className="longLogo" src={apple} alt="apple" />
-      </div>
-      <section id="pageSec">
+      </Container>
+      <Container className="pageSec">
         <p>
           Deep within the heart of the Mississippi River, where catfish serenade with banjos and blues legends haunt the night, a cosmic collision of musical prowess occurred. Behold, the birth of Strange Medicine! These four misfit minstrels hailing from the land of cornfields and cow-tippin' were destined to ignite the Midwest with a storm of sonic shenanigans. With thunderous riffs, electrifying solos, and a dash of St. Louis charm, Strange Medicine burst onto the scene like a sonic tornado, leaving a trail of shattered eardrums and satisfied smiles in their wake.
           Strange Medicine is a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
         </p>
-      </section>
-      <section id="cardSection">
-        <Container>
-          <div className="card-container">
+      </Container>
+          <Container className="card-container">
             <Card>
               <Card.Img variant="top" src={austin} />
               <Card.Body>
@@ -100,13 +97,12 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </div>
         </Container>
-      </section>
-      <h1> Together, these musical madmen known as Strange Medicine are a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!</h1>
+        <Container className ="footer">
       <hr>
       </hr>
       <p>Developed by Rohan <a href>https://rohankeenoy.github.io/</a></p>
+      </Container>
     </div>
   );
 };

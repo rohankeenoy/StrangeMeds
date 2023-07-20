@@ -1,10 +1,26 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import "./NavBarStyle.css";
 
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
+    useEffect(() => {
+      function handleScroll() {
+        const navigation = document.querySelector(".navigation");
+        const scrollTop = window.scrollY;
   
+        if (scrollTop === 0) {
+          navigation.style.backgroundColor = "transparent";
+        } else {
+          navigation.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        }
+      }
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
     return (
       <nav className="navigation">
         <a href="/" className="brand-name">

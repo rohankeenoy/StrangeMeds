@@ -7,50 +7,49 @@ p{
 }
 
 
+.content-container{
+  z-index: -999;
+}
 
+.pageSec {
 
-#pageSec {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   border-style: dotted;
   border-width: 4px;
   border-color: rgba(252, 214, 131, 0.823);
-  padding: 25px;
   margin: 20px 10px;
-  box-sizing: border-box;
+  flex: 1 1 0;
+    min-width: 0;
+  
 }
 
 .image-resize {
   width: 100%;
-  height: auto;
+  max-height: auto;
   max-width: 800px;
-  z-index:-99;
-}
-
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1700px;
+  flex: 1 1 0;
+    min-width: 0;
   z-index:-999;
 }
+.Carousel{
+  flex: 1 1 0;
+    min-width: 0;
+    z-index: -999 !important;
+}
 
-#logos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logos {
+ text-align: center;
   padding-top: 3px;
+  flex: 1 1 0;
+    min-width: 0;
 }
 
 .logo,
 .longLogo {
   height: 50px;
   margin-right: 10px;
+
 }
 
 .logo:hover,
@@ -121,4 +120,6 @@ h1{
   margin: 20px 10px;
   font-style: bold;
   text-transform: uppercase;
+  flex: 1 1 0;
+    min-width: 0;
 }
