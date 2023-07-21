@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Retro';
+    src: url('../assets/Retro.ttf') format('truetype');
+  }
+
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .h1class{
+    text-align: center;
+    color:white !important;
+    padding: 25px;
+    margin-top: 30px;
+    font-style: bold;
+    text-transform: uppercase;
+    flex: 1 1 0;
+      min-width: 0;
+      font-family: Retro;
+  }
+  .footer{
+    flex: 1 1 0;
+    min-width: 0;
+}
+.image-resize1 {
+    width: 100%;
+  max-height: 400px;
+  max-width: 600px;
+  flex: 1 1 0;
+    min-width: 0;
+  z-index:-999;
+    
+  }
+  .Carousel{
+    flex: 1 1 0;
+      min-width: 0;
+      z-index: -999 !important;
+  }
+  
+  
+
+  
+
+  
+ 
+  

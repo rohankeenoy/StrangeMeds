@@ -11,8 +11,10 @@ export default function Navbar() {
   
         if (scrollTop === 0) {
           navigation.style.backgroundColor = "transparent";
+          navigation.style.animation = "easeOut 1s";
         } else {
           navigation.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+          navigation.style.animation = "easeInOut 2s";
         }
       }
   

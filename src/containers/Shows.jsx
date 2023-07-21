@@ -15,7 +15,7 @@ const Shows = () => {
   return (
     <div>
       <Navbar />
-      <div className="content-container">
+      <div className="blah">
         <h1 className="upcomingTitle">Upcoming Shows</h1>
         <hr></hr>
         <Container className="show-item">

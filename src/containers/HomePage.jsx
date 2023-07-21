@@ -4,7 +4,6 @@ import '../components/SMstyles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Carousel, Container, Card } from 'react-bootstrap';
-
 import image1 from '../assets/1.jpg';
 import image2 from '../assets/2.jpg';
 import image3 from '../assets/3.jpg';
@@ -97,6 +96,11 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+        </Container>
+        <Container className ="pageSec">
+          <p>
+          Together, these musical madmen known as Strange Medicine are a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
+          </p>
         </Container>
         <Container className ="footer">
       <hr>

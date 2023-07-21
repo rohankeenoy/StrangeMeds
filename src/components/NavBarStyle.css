@@ -3,6 +3,26 @@
   src: url('../assets/Retro.ttf') format('truetype');
 }
 
+/* scroll animations*/
+@keyframes easeInOut {
+  0% {
+      background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+      background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+
+@keyframes easeOut {
+  0% {
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+  100% {
+      background-color: transparent;
+  }
+}
+
+/*regular style*/
 .navigation {
   z-index: 999;
   position: fixed;
@@ -116,7 +136,7 @@
   .navigation-menu li {
     text-align: center;
     margin: 0;
-    background-color:rgba(0,0,0,0.5)
+    background-color:rgb(0, 0, 0)
     
   }
 

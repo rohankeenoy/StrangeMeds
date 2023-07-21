@@ -9,6 +9,10 @@ p{
 
 .content-container{
   z-index: -999;
+  margin-top: 70px;
+  display: flex;
+  max-height: 100vh;
+  flex-direction: column;
 }
 
 .pageSec {
@@ -23,7 +27,14 @@ p{
     min-width: 0;
   
 }
-
+.pageSec p{
+  padding: 30px;
+  font-size: 22px;
+}
+.Card.Title{
+  font-size:22px;
+  font-family: Retro;
+}
 .image-resize {
   width: 100%;
   max-height: auto;
@@ -111,6 +122,10 @@ p{
     max-width: 300;
     z-index:-99;
   }
+  .pageSec p{
+    padding: 0px;
+  }
+
   
 }
 h1{
