@@ -26,42 +26,42 @@ const Gallery = () => {
       <Container className="content-container">
         <h1 className="h1class">July 8, 2023</h1>
         <Carousel controls={true}>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july81}
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july85}
               alt="Second slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july83}
               alt="Third slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july84}
               alt="Fourth slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july82}
               alt="Fifth slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={july86}
@@ -75,42 +75,42 @@ const Gallery = () => {
       <Container className="content-container">
         <h1 className="h1class">Jan 6, 2018</h1>
         <Carousel controls={true}>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={jan81}
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className="image-resize1"
               src={jan85}
               alt="Second slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className="image-resize1"
               src={jan83}
               alt="Third slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={jan84}
               alt="Fourth slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={jan82}
               alt="Fifth slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className="image-resize1"
               src={jan86}
@@ -124,21 +124,21 @@ const Gallery = () => {
       <Container className="content-container">
         <h1 className="h1class">October 18, 2016</h1>
         <Carousel controls={true}>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={oct181}
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className="image-resize1"
               src={oct182}
               alt="Sixth slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={4000}>
+          <Carousel.Item interval={3000}>
             <img
               className=" image-resize1"
               src={oct183}
