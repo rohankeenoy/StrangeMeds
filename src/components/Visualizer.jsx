@@ -70,7 +70,7 @@ class Visualizer extends React.Component {
         // Loads the music file into p5.js to play on click
         p.preload = () => {
             p.soundFormats('mp3')
-            song = p.loadSound(defeater)
+            song = p.loadSound(this.props.selectedSong)
         }
 
         // Initial setup to create canvas and audio analyzers
@@ -209,7 +209,8 @@ class Visualizer extends React.Component {
     render() {
         return (
             
-                <div className="flex flex-wrap lg:flex-nowrap mt-8 w-full justify-center items-center">
+            <div class="flex flex-wrap lg:flex-nowrap mt-8 w-full justify-center items-center flex-1 w-0 mobile-height-check">
+
                     {/* The actaual canvas for p5.js */}
                     <div
                         className="flex justify-center"

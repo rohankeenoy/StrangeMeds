@@ -10,6 +10,7 @@ import apr29 from '../assets/apr29Strange.jpg';
 import nov19 from '../assets/nov19.jpg';
 import july8 from '../assets/jul8Strange.jpg';
 import logo from '../assets/SMlogo.png'
+import Logos from '../components/logosContainer'
 
 const Shows = () => {
   return (
@@ -141,6 +142,7 @@ const Shows = () => {
             </div>
           </Container>
         </Container>
+        <Logos/>
         <Container className ="footer">
       <hr>
       </hr>

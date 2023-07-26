@@ -19,6 +19,8 @@ import oct181 from '../assets/oct181.jpg'
 import oct182 from '../assets/oct182.jpg'
 import oct183 from '../assets/oct183.jpg'
 
+import Logos from '../components/logosContainer'
+
 const Gallery = () => {
   return (
     <div> 
@@ -148,7 +150,11 @@ const Gallery = () => {
           </Carousel>
         {/* Add more carousels here */}
       </Container>
-
+      <div> 
+      {/* ... Your existing code ... */}
+      <Logos style={{ position: 'absolute', bottom: '20px', left: '20px',display: 'block' }} />
+      {/* ... Your existing code ... */}
+    </div>
       <Container className ="footer">
         <hr />
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>

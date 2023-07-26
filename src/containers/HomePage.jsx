@@ -7,15 +7,14 @@ import { Carousel, Container, Card } from 'react-bootstrap';
 import image1 from '../assets/1.jpg';
 import image2 from '../assets/2.jpg';
 import image3 from '../assets/3.jpg';
-import fb from '../assets/fb.png';
-import insta from '../assets/instagram.png';
-import spotify from '../assets/spotify.png';
-import bc from '../assets/BC.png';
-import apple from '../assets/apple.png';
 import rohan from '../assets/rohan.png'
 import graham from '../assets/graham.jpg'
 import austin from '../assets/austin.jpg'
 import bao from '../assets/bao.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Logos from '../components/logosContainer'
+
+
 
 const HomePage = () => {
   return (
@@ -47,11 +46,9 @@ const HomePage = () => {
         </Carousel>
       </div>
       <Container className="logos">
-        <img className="logo" src={bc} alt="bandcamp" />
-        <img className="longLogo" src={spotify} alt="spotify" />
-        <img className="logo" src={insta} alt="instagram" />
-        <img className="logo" src={fb} alt="facebook" />
-        <img className="longLogo" src={apple} alt="apple" />
+      <Logos/>
+
+        
       </Container>
       <Container className="pageSec">
         <p>
@@ -103,9 +100,8 @@ const HomePage = () => {
           </p>
         </Container>
         <Container className ="footer">
-      <hr>
-      </hr>
-      <p>Developed by Rohan <a href>https://rohankeenoy.github.io/</a></p>
+        <hr />
+        <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>
   );
