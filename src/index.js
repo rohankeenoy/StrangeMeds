@@ -10,6 +10,7 @@ import Shows from './containers/Shows';
 import Gallary from './containers/Gallary';
 import LoadingScreen from './components/Loading'; // Import the LoadingScreen component
 import './components/logos'
+import Contact from './containers/Contact'
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true); // State to track loading status
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/Listen" element={<Listen />} />
         <Route path="/Shows" element={<Shows />} />
         <Route path="/Gallery" element={<Gallary />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

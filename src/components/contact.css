@@ -1,0 +1,68 @@
+
+
+/* Style the main container */
+@font-face {
+    font-family: 'Retro';
+    src: url('../assets/Retro.ttf') format('truetype');
+  }
+  
+  /* Style the form container */
+  .form-container {
+
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    flex:1 1 0;
+    justify-content: center; /* Center the form vertically */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: dotted;
+    border-width: 4px;
+    border-color: rgba(252, 214, 131, 0.823);
+  }
+  h1{
+    font-family: Retro;
+  }
+  
+  /* Center the form horizontally */
+  .form-container form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements horizontally */
+  }
+  
+  /* Center the button */
+  .form-container button {
+    margin-top: 10px;
+  }
+  
+  /* Style the logos container */
+  .logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the footer container */
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .footer-container p {
+    margin: 0;
+  }
+  
+  .footer-container a {
+    color: #007bff;
+  }
+  

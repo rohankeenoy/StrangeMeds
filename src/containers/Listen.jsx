@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import Visualizer from '../components/Visualizer';
-import defeater from '../assets/defeater.mp3';
-import KL from '../assets/KL.mp3';
+import Beneath from '../assets/Beneath.mp3';
+import LetGo from '../assets/LetGo.mp3';
+import LostAt from '../assets/LostAt.mp3';
 import NavBar from '../components/NavBar';
 import { Container } from 'react-bootstrap';
 import "../components/Listen.css";
 import Logos from '../components/logosContainer';
 
 const Listen = () => {
-  const [selectedSong, setSelectedSong] = useState(defeater);
+  const [selectedSong, setSelectedSong] = useState(Beneath);
 
   const handleSongSelect = (songUrl) => {
     console.log("Selected Song URL:", songUrl);
@@ -24,9 +25,9 @@ const Listen = () => {
       <Container className="songList">
         <h1> Select a song and then click on the visualizer to play/pause. Spacebar changes the colors.</h1>
         <div className="button-container">
-          <button className="button-30" onClick={() => handleSongSelect(defeater)}>Select Defeater Song</button>
-          <button className="button-30" onClick={() => handleSongSelect(KL)}>Select Knocked Loose</button>
-          <button className="button-30" onClick={() => handleSongSelect(KL)}>Select Knocked Loose</button>
+          <button className="button-30" onClick={() => handleSongSelect(Beneath)}>Beneath the Sky</button>
+          <button className="button-30" onClick={() => handleSongSelect(LostAt)}>Lost At Sea</button>
+          <button className="button-30" onClick={() => handleSongSelect(LetGo)}>Let Go River</button>
         </div>
       </Container>
 
