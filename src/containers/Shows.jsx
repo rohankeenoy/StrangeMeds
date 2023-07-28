@@ -11,6 +11,7 @@ import nov19 from '../assets/nov19.jpg';
 import july8 from '../assets/jul8Strange.jpg';
 import logo from '../assets/SMlogo.png'
 import Logos from '../components/logosContainer'
+import { Link } from 'react-router-dom'; //
 
 const Shows = () => {
   return (
@@ -131,7 +132,7 @@ const Shows = () => {
         <Logos/>
         <Container className ="footer">
         <hr />
-        <p><a href="/contact">CONTACT US!</a></p>
+        <p><Link to ="/Contact"> Contact </Link></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
       </div>

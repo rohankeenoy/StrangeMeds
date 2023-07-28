@@ -13,6 +13,7 @@ import austin from '../assets/austin.jpg'
 import bao from '../assets/bao.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logos from '../components/logosContainer'
+import { Link } from 'react-router-dom'; //
 
 
 
@@ -101,7 +102,7 @@ const HomePage = () => {
         </Container>
         <Container className ="footer">
         <hr />
-        <p><a href="/contact">CONTACT US!</a></p>
+        <p><Link to ="/Contact"> Contact </Link></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>

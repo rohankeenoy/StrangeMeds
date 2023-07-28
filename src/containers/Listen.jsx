@@ -8,6 +8,7 @@ import { Container } from 'react-bootstrap';
 import burrito from '../assets/steakncheese.mp3'
 import "../components/Listen.css";
 import Logos from '../components/logosContainer';
+import { Link } from 'react-router-dom'; //
 
 const Listen = () => {
   const [selectedSong, setSelectedSong] = useState(Beneath);
@@ -65,7 +66,7 @@ const Listen = () => {
       
       <Container className ="footer">
         <hr />
-        <p><a href="/contact">CONTACT US!</a></p>
+        <p><Link to ="/Contact"> Contact </Link></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>
