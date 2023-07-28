@@ -26,9 +26,10 @@ export default function Navbar() {
     }, []);
     return (
       <nav className="navigation">
-        <a href="/" className="brand-name">
+        <Link to = "/" className="brand-name">
           Strange Medicine
-        </a>
+          </Link>
+        
         <button
           className="hamburger"
           onClick={() => {
