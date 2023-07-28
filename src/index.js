@@ -31,11 +31,11 @@ const App = () => {
       <Background />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/Listen" element={<Listen />} />
-        <Route path="/Shows" element={<Shows />} />
-        <Route path="/Gallery" element={<Gallary />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="https://strangemedicineofficial.onrender.com/Listen/home" element={<HomePage />} />
+        <Route path="https://strangemedicineofficial.onrender.com/Listen/Listen" element={<Listen />} />
+        <Route path="https://strangemedicineofficial.onrender.com/Listen/Shows" element={<Shows />} />
+        <Route path="https://strangemedicineofficial.onrender.com/Listen/Gallery" element={<Gallary />} />
+        <Route path="https://strangemedicineofficial.onrender.com/Listen/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );
