@@ -53,7 +53,7 @@ const HomePage = () => {
       <Container className="pageSec">
         <p>
           Deep within the heart of the Mississippi River, where catfish serenade with banjos and blues legends haunt the night, a cosmic collision of musical prowess occurred. Behold, the birth of Strange Medicine! These four misfit minstrels hailing from the land of cornfields and cow-tippin' were destined to ignite the Midwest with a storm of sonic shenanigans. With thunderous riffs, electrifying solos, and a dash of St. Louis charm, Strange Medicine burst onto the scene like a sonic tornado, leaving a trail of shattered eardrums and satisfied smiles in their wake.
-          Strange Medicine is a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
+         
         </p>
       </Container>
           <Container className="card-container">
@@ -96,11 +96,12 @@ const HomePage = () => {
         </Container>
         <Container className ="pageSec">
           <p>
-          Together, these musical madmen known as Strange Medicine are a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
+          Strange Medicine is a prescription for laughter, toe-tapping, and spontaneous outbreaks of interpretive dance. Their shows are an infectious blend of rock 'n' roll chaos and Midwestern charm, guaranteed to leave you with aching eardrums, sore feet from all the dancing, and a smile so wide it could swallow the Mississippi River itself. So buckle up, grab your socks, and prepare to be rocked into a state of blissful musical mayhem!
           </p>
         </Container>
         <Container className ="footer">
         <hr />
+        <p><a href="/contact">CONTACT US!</a></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>

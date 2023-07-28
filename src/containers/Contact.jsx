@@ -25,7 +25,7 @@ const InquiryForm = () => {
     setIsLoading(true); // Set loading state while sending the email
 
     // Send form data to the backend server
-    axios.post('http://localhost:5000/send-inquiry', formData)
+    axios.post('https://strangemedicine.onrender.com/send-inquiry', formData)
       .then((response) => {
         console.log("Email sent");
         setIsSent(true); // Set isSent state to true after the email is successfully sent

@@ -157,6 +157,7 @@ const Gallery = () => {
     </div>
       <Container className ="footer">
         <hr />
+        <p><a href="/contact">CONTACT US!</a></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>

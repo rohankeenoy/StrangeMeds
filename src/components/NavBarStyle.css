@@ -3,6 +3,7 @@
   src: url('../assets/Retro.ttf') format('truetype');
 }
 
+
 /* scroll animations*/
 @keyframes easeInOut {
   0% {

@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Retro';
-    src: url('../assets/Retro.ttf') format('truetype');
-  }
+  font-family: 'Retro';
+  src: url('../assets/Glocken.ttf') format('truetype');
+}
 
 
 .landing-section {
@@ -17,7 +17,7 @@
   .landing-title {
     font-family: Retro;
     color: #ffffff;
-    font-size: 125px;
+    font-size: 100px;
     margin-top: 0px;
     text-align: center;
     overflow: visible;

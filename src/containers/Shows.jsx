@@ -45,9 +45,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                July  8th. Red Flag. Doors @ 7.
               </p>
             </div>
           </Container>
@@ -60,9 +58,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                May 19. CBGB. 8pm.
               </p>
             </div>
           </Container>
@@ -75,9 +71,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+               April 29. Ciceros. 7pm.
               </p>
             </div>
           </Container>
@@ -90,9 +84,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                Jan 18th. Fubar. 6pm.
               </p>
             </div>
           </Container>
@@ -105,9 +97,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                December 22. Delmar Hall. 7pm.
               </p>
             </div>
           </Container>
@@ -120,9 +110,7 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                November 19th. Ciceros. 7pm.
               </p>
             </div>
           </Container>
@@ -135,18 +123,16 @@ const Shows = () => {
             </div>
             <div className="text-container">
               <p className="details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur quibusdam soluta quidem
-                reiciendis, reprehenderit voluptatum ratione autem beatae dicta ipsam quod, veniam illo hic? Velit
-                temporibus magni nam ex.
+                October 18th. The Firebird. 6pm.
               </p>
             </div>
           </Container>
         </Container>
         <Logos/>
         <Container className ="footer">
-      <hr>
-      </hr>
-      <p>Developed by Rohan <a href>https://rohankeenoy.github.io/</a></p>
+        <hr />
+        <p><a href="/contact">CONTACT US!</a></p>
+        <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
       </div>
       

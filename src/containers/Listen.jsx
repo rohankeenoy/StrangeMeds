@@ -5,6 +5,7 @@ import LetGo from '../assets/LetGo.mp3';
 import LostAt from '../assets/LostAt.mp3';
 import NavBar from '../components/NavBar';
 import { Container } from 'react-bootstrap';
+import burrito from '../assets/steakncheese.mp3'
 import "../components/Listen.css";
 import Logos from '../components/logosContainer';
 
@@ -28,6 +29,7 @@ const Listen = () => {
           <button className="button-30" onClick={() => handleSongSelect(Beneath)}>Beneath the Sky</button>
           <button className="button-30" onClick={() => handleSongSelect(LostAt)}>Lost At Sea</button>
           <button className="button-30" onClick={() => handleSongSelect(LetGo)}>Let Go River</button>
+          <button className="button-30" onClick={() => handleSongSelect(burrito)}>Steak & Cheese Burrito</button>
         </div>
       </Container>
 
@@ -61,9 +63,10 @@ const Listen = () => {
 
       <Logos />
       
-      <Container className="footer">
+      <Container className ="footer">
         <hr />
-        <p>Developed by Rohan <a href="https://rohankeenoy.github.io/" target="_blank" rel="noopener noreferrer">https://rohankeenoy.github.io/</a></p>
+        <p><a href="/contact">CONTACT US!</a></p>
+        <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
     </div>
   );
