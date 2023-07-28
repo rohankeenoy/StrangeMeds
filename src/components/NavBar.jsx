@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import "./NavBarStyle.css";
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 
 export default function Navbar() {
@@ -55,16 +56,16 @@ export default function Navbar() {
         >
           <ul>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Home">Home</a>
+              <Link to ="/Home"> Home </Link>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Listen">Listen</a>
+            <Link to ="/Listen"> Listen </Link>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Gallery">Gallery</a>
+            <Link to ="/Gallery"> Gallery </Link>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Shows">Shows</a>
+              <Link to="/Shows">Shows </Link>
             </li>
           </ul>
         </div>

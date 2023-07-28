@@ -21,7 +21,7 @@ const LandingPage = () => {
           <li>Distorted Sensory and Time Perception</li>
         </ul>
 
-        <Link to="https://strangemedicineofficial.onrender.com/Home" className="link link--alt" onClick={handleClick}>
+        <Link to="/Home" className="link link--alt" onClick={handleClick}>
           <svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' className="link__svg" aria-labelledby="link2-title link2-desc">
             <title id="link2-title">I've Consulted With My Doctor</title>
             <desc id="link2-desc">A rotating link with text placed around a circle, with a cloud/flower shape around it, and a smiley face inside</desc>
