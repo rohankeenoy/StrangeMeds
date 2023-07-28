@@ -55,16 +55,16 @@ export default function Navbar() {
         >
           <ul>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Listen/Home">Home</a>
+              <a href="https://strangemedicineofficial.onrender.com/Home">Home</a>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Listen/Listen">Listen</a>
+              <a href="https://strangemedicineofficial.onrender.com/Listen">Listen</a>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Listen/Gallery">Gallery</a>
+              <a href="https://strangemedicineofficial.onrender.com/Gallery">Gallery</a>
             </li>
             <li>
-              <a href="https://strangemedicineofficial.onrender.com/Listen/Shows">Shows</a>
+              <a href="https://strangemedicineofficial.onrender.com/Shows">Shows</a>
             </li>
           </ul>
         </div>
