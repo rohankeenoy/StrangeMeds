@@ -132,7 +132,7 @@ const Shows = () => {
         <Logos/>
         <Container className ="footer">
         <hr />
-        <p><Link to ="/Contact"> Contact </Link></p>
+        <p><Link to ="/Contact"> Contact us!</Link></p>
         <p>Developed by Rohan <a href="https://rohankeenoy.github.io/">https://rohankeenoy.github.io/</a></p>
       </Container>
       </div>
